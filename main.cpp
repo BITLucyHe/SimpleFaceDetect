@@ -43,13 +43,13 @@ void frameProcess(cv::Mat &frame, cv::dnn::Net &net, const std::vector<std::stri
         int class_id = classIdPoint.x;
 
         /********************************DEBUG USE********************************/
-        // std::cout << "Detection " << i << ": " << std::endl;
-        // std::cout << "  x_center: " << x_center << std::endl;
-        // std::cout << "  y_center: " << y_center << std::endl;
-        // std::cout << "  width: " << width << std::endl;
-        // std::cout << "  height: " << height << std::endl;
+        // std::cout << "Detection "     << i << ": "  << std::endl;
+        // std::cout << "  x_center: "   << x_center   << std::endl;
+        // std::cout << "  y_center: "   << y_center   << std::endl;
+        // std::cout << "  width: "      << width      << std::endl;
+        // std::cout << "  height: "     << height     << std::endl;
         // std::cout << "  confidence: " << confidence << std::endl;
-        // std::cout << "  class_id: " << class_id << std::endl;
+        // std::cout << "  class_id: "   << class_id   << std::endl;
         // std::cout << "  frame cols: " << frame.cols << std::endl;
         // std::cout << "  frame rows: " << frame.rows << std::endl;
         // std::cout << std::endl;
